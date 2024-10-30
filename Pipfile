@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+certifi = "==2024.8.30"
+distlib = "==0.3.9"
+filelock = "==3.16.1"
+packaging = "==24.1"
+pipenv = "==2024.2.0"
+platformdirs = "==4.3.6"
+virtualenv = "==20.27.0"
+django = "*"
+python-dotenv = "*"
+psycopg2-binary = "2.9.10"
+pillow = "10.4.0"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"

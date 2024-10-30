@@ -1,0 +1,57 @@
+[
+  {
+    "model": "core.field",
+    "pk": 1,
+    "fields": {
+      "name": "Fazenda Verde",
+      "lon": -47.9292,
+      "lat": -15.7801,
+      "area": 150.5,
+      "soil_type": "Argiloso"
+    }
+  },
+  {
+    "model": "core.field",
+    "pk": 2,
+    "fields": {
+      "name": "Sítio da Montanha",
+      "lon": -47.9123,
+      "lat": -15.8202,
+      "area": 75.0,
+      "soil_type": "Areia"
+    }
+  },
+  {
+    "model": "core.field",
+    "pk": 3,
+    "fields": {
+      "name": "Campo dos Sonhos",
+      "lon": -47.9011,
+      "lat": -15.7905,
+      "area": 200.0,
+      "soil_type": "Siltoso"
+    }
+  },
+  {
+    "model": "core.field",
+    "pk": 4,
+    "fields": {
+      "name": "Estância das Flores",
+      "lon": -47.94,
+      "lat": -15.81,
+      "area": 120.0,
+      "soil_type": "Humoso"
+    }
+  },
+  {
+    "model": "core.field",
+    "pk": 5,
+    "fields": {
+      "name": "Agropecuária Sol Nascente",
+      "lon": -47.8888,
+      "lat": -15.85,
+      "area": 90.0,
+      "soil_type": "Areia"
+    }
+  }
+]

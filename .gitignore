@@ -1,0 +1,6 @@
+.env
+.venv
+__pycache__
+nginx.conf
+migrations
+Pipfile.lock
