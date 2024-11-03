@@ -1,5 +1,8 @@
 ## AgriTrack - Agriculture Management System | Sistema de Gestão Rural
 
-![dashboard](https://github.com/user-attachments/assets/f5e221db-a445-4abd-aeb6-45f9a1ad70d9)
+
+
+https://github.com/user-attachments/assets/74ede3d4-17fe-4ac8-9f73-af01bd7978e3
+
 
 
