@@ -4,3 +4,4 @@ __pycache__
 nginx.conf
 migrations
 Pipfile.lock
+staticfiles

@@ -1,0 +1,16 @@
+/* custom_admin.css */
+body {
+  background-color: #680101;
+}
+
+.header {
+  background-color: #4caf50;
+}
+
+.navbar {
+  background-color: #333;
+}
+
+.navbar a {
+  color: rgb(203, 166, 3);
+}

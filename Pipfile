@@ -15,6 +15,7 @@ django = "*"
 python-dotenv = "*"
 psycopg2-binary = "2.9.10"
 pillow = "10.4.0"
+django-admin-interface = "*"
 
 [dev-packages]
 

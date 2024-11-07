@@ -1,9 +1,9 @@
 [
   {
     "model": "core.field",
-    "pk": 1,
+    "pk": 7,
     "fields": {
-      "name": "Fazenda Verde",
+      "name": "Encanto",
       "lon": -47.9292,
       "lat": -15.7801,
       "area": 150.5,
@@ -12,9 +12,9 @@
   },
   {
     "model": "core.field",
-    "pk": 2,
+    "pk": 8,
     "fields": {
-      "name": "Sítio da Montanha",
+      "name": "Rosada",
       "lon": -47.9123,
       "lat": -15.8202,
       "area": 75.0,
@@ -23,9 +23,9 @@
   },
   {
     "model": "core.field",
-    "pk": 3,
+    "pk": 9,
     "fields": {
-      "name": "Campo dos Sonhos",
+      "name": "Montanha alta",
       "lon": -47.9011,
       "lat": -15.7905,
       "area": 200.0,
@@ -34,9 +34,9 @@
   },
   {
     "model": "core.field",
-    "pk": 4,
+    "pk": 10,
     "fields": {
-      "name": "Estância das Flores",
+      "name": "Estrela",
       "lon": -47.94,
       "lat": -15.81,
       "area": 120.0,
@@ -45,13 +45,79 @@
   },
   {
     "model": "core.field",
-    "pk": 5,
+    "pk": 11,
     "fields": {
-      "name": "Agropecuária Sol Nascente",
+      "name": "Abraão",
       "lon": -47.8888,
       "lat": -15.85,
       "area": 90.0,
       "soil_type": "Areia"
+    }
+  },
+  {
+    "model": "core.cropseason",
+    "pk": 1,
+    "fields": {
+      "crop_type": "Soja",
+      "start_date": "2023-09-01",
+      "end_date": "2024-02-28",
+      "location": 1,
+      "estimated_yield": 3500.0,
+      "notes": "Primeira safra para este campo."
+    }
+  },
+  {
+    "model": "core.cropseason",
+    "pk": 2,
+    "fields": {
+      "crop_type": "Milho",
+      "start_date": "2024-03-01",
+      "end_date": "2024-08-31",
+      "location": 2,
+      "estimated_yield": 4000.0,
+      "notes": "Safra de milho esperada com alta produção."
+    }
+  },
+  {
+    "model": "core.cropseason",
+    "pk": 3,
+    "fields": {
+      "crop_type": "Trigo",
+      "start_date": "2024-05-01",
+      "end_date": "2024-10-31",
+      "location": 3,
+      "estimated_yield": 2500.0,
+      "notes": "Safra de trigo na época de inverno."
+    }
+  },
+  {
+    "model": "core.harvest",
+    "pk": 1,
+    "fields": {
+      "crop_season": 1,
+      "harvest_date": "2024-03-01",
+      "quantity": 1800.0,
+      "quality": "Alta"
+    }
+  },
+  {
+    "model": "core.harvest",
+    "pk": 2,
+    "fields": {
+      "crop_season": 2,
+      "harvest_date": "2024-09-01",
+      "quantity": 2200.0,
+      "quality": "Média"
+    }
+  },
+  {
+    "model": "core.harvest",
+    "pk": 3,
+    "fields": {
+      "crop_season": 3,
+      "harvest_date": "2025-11-01",
+      "quantity": 1500.0,
+      "quality": "Alta"
     }
   }
 ]

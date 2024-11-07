@@ -1,0 +1,23 @@
+{% extends 'admin/base.html' %} {% block extrahead %} {{ block.super }}
+<style>
+  :root {
+    --primary: #ffffff;
+    --secondary: #0b2504;
+    --accent: #a8c889;
+    --primary-fg: #000; /* Cor do texto padrão em modo claro */
+    --header-color: #406020;
+    --darkened-bg: #fff;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --primary: #1e1e1e;
+      --secondary: #0b2504;
+      --accent: #a8c889;
+      --primary-fg: #fff;
+      --header-color: #b3d99a;
+      --darkened-bg: #2c2c2c;
+    }
+  }
+</style>
+{% endblock %}
