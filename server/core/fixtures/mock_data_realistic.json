@@ -1,0 +1,178 @@
+[
+  {
+    "model": "core.field",
+    "pk": 1,
+    "fields": {
+      "name": "Fazenda Boa Vista",
+      "lon": -47.9292,
+      "lat": -22.9028,
+      "area": 250.0,
+      "soil_type": "Argiloso",
+      "location": "POINT(-47.9292 -22.9028)"
+    }
+  },
+  {
+    "model": "core.field",
+    "pk": 2,
+    "fields": {
+      "name": "Fazenda São José",
+      "lon": -46.9292,
+      "lat": -23.9028,
+      "area": 180.5,
+      "soil_type": "Arenoso",
+      "location": "POINT(-46.9292 -23.9028)"
+    }
+  },
+  {
+    "model": "core.field",
+    "pk": 3,
+    "fields": {
+      "name": "Fazenda Santa Maria",
+      "lon": -48.0321,
+      "lat": -22.8833,
+      "area": 320.0,
+      "soil_type": "Calcário",
+      "location": "POINT(-48.0321 -22.8833)"
+    }
+  },
+  {
+    "model": "core.field",
+    "pk": 4,
+    "fields": {
+      "name": "Fazenda Campo Verde",
+      "lon": -47.8904,
+      "lat": -23.5789,
+      "area": 500.0,
+      "soil_type": "Humoso",
+      "location": "POINT(-47.8904 -23.5789)"
+    }
+  },
+  {
+    "model": "core.cropseason",
+    "pk": 1,
+    "fields": {
+      "crop_type": "Milho",
+      "start_date": "2024-04-01",
+      "end_date": "2024-08-31",
+      "location": 1,
+      "estimated_yield": 350.0,
+      "notes": "Temporada de milho muito promissora com previsão de boa produtividade."
+    }
+  },
+  {
+    "model": "core.cropseason",
+    "pk": 2,
+    "fields": {
+      "crop_type": "Soja",
+      "start_date": "2024-10-01",
+      "end_date": "2025-03-31",
+      "location": 2,
+      "estimated_yield": 600.0,
+      "notes": "Temporada de soja com grande área cultivada e uso de sementes transgênicas."
+    }
+  },
+  {
+    "model": "core.cropseason",
+    "pk": 3,
+    "fields": {
+      "crop_type": "Café",
+      "start_date": "2024-05-01",
+      "end_date": "2024-12-31",
+      "location": 3,
+      "estimated_yield": 150.0,
+      "notes": "Produção de café com alta qualidade e previsão de excelente mercado."
+    }
+  },
+  {
+    "model": "core.cropseason",
+    "pk": 4,
+    "fields": {
+      "crop_type": "Arroz",
+      "start_date": "2024-01-01",
+      "end_date": "2024-06-30",
+      "location": 4,
+      "estimated_yield": 450.0,
+      "notes": "Temporada de arroz com irrigação eficiente e previsão de bom retorno."
+    }
+  },
+  {
+    "model": "core.harvest",
+    "pk": 1,
+    "fields": {
+      "crop_season": 1,
+      "harvest_date": "2024-08-01",
+      "quantity": 300.0,
+      "quality": "Alta"
+    }
+  },
+  {
+    "model": "core.harvest",
+    "pk": 2,
+    "fields": {
+      "crop_season": 1,
+      "harvest_date": "2024-08-15",
+      "quantity": 350.0,
+      "quality": "Alta"
+    }
+  },
+  {
+    "model": "core.harvest",
+    "pk": 3,
+    "fields": {
+      "crop_season": 2,
+      "harvest_date": "2025-03-01",
+      "quantity": 500.0,
+      "quality": "Média"
+    }
+  },
+  {
+    "model": "core.harvest",
+    "pk": 4,
+    "fields": {
+      "crop_season": 2,
+      "harvest_date": "2025-03-15",
+      "quantity": 550.0,
+      "quality": "Alta"
+    }
+  },
+  {
+    "model": "core.harvest",
+    "pk": 5,
+    "fields": {
+      "crop_season": 3,
+      "harvest_date": "2024-12-01",
+      "quantity": 100.0,
+      "quality": "Alta"
+    }
+  },
+  {
+    "model": "core.harvest",
+    "pk": 6,
+    "fields": {
+      "crop_season": 3,
+      "harvest_date": "2024-12-15",
+      "quantity": 120.0,
+      "quality": "Alta"
+    }
+  },
+  {
+    "model": "core.harvest",
+    "pk": 7,
+    "fields": {
+      "crop_season": 4,
+      "harvest_date": "2024-06-01",
+      "quantity": 400.0,
+      "quality": "Média"
+    }
+  },
+  {
+    "model": "core.harvest",
+    "pk": 8,
+    "fields": {
+      "crop_season": 4,
+      "harvest_date": "2024-06-15",
+      "quantity": 450.0,
+      "quality": "Alta"
+    }
+  }
+]
