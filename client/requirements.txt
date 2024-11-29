@@ -1,0 +1,9 @@
+streamlit
+psycopg2-binary
+sqlalchemy
+pandas
+geopandas
+folium
+holoviews
+bokeh
+streamlit-folium
